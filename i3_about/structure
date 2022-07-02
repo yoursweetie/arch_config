@@ -1,20 +1,79 @@
-PATH: ~/.config/i3 i3blocks i3status
-In i3blocks, config is important :)
+In i3blocks, config is most important :)
 
-i3:
-config  net-speed.sh  setbg.sh  srlock.sh
+/home/ziya/.config/i3
+├── config
+├── net-speed.sh
+├── setbg.sh
+└── srlock.sh
 
-i3blocks:
-afs           batterybar         disk              iface              mediaplayer      rofi-calendar        user
-apt-upgrades  battery-poly       disk-io           ISSUE_TEMPLATE.md  memory           shutdown_menu        volume
-arch-update   calendar           docker            kbdd_layout        memory2          ssid                 volume-pulseaudio
-aur-update    config             dunst             keyindicator       miccontrol       sway-focusedwindow   wifi
-backlight     config.example     email             key_layout         monitor_manager  systemd_unit         wlan-dbm
-bandwidth     CONTRIBUTING.md    essid             key_light          nm-vpn           tahoe-lafs           xkb_layout
-bandwidth2    cpu_usage          eyedropper        kubernetes         openvpn          temperature          ytdl-mpv
-bandwidth3    cpu_usage2         go                LICENSE.md         openvpn-systemd  time
-battery       cpu_util_detailed  gpu-load          load_average       optimus-manager  timer_and_stopwatch
-battery2      dimmer             i3-focusedwindow  Makefile           README.adoc      usb
+/home/ziya/.config/i3blocks
+├── afs
+├── apt-upgrades
+├── arch-update
+├── aur-update
+├── backlight
+├── bandwidth
+├── bandwidth2
+├── bandwidth3
+├── battery
+├── battery2
+├── batterybar
+├── battery-poly
+├── calendar
+├── config     <--------- most important
+├── config.example
+├── CONTRIBUTING.md
+├── cpu_usage
+├── cpu_usage2
+├── cpu_util_detailed
+├── dimmer
+├── disk
+├── disk-io
+├── docker
+├── dunst
+├── email
+├── essid
+├── eyedropper
+├── go
+├── gpu-load
+├── i3-focusedwindow
+├── iface
+├── ISSUE_TEMPLATE.md
+├── kbdd_layout
+├── keyindicator
+├── key_layout
+├── key_light
+├── kubernetes
+├── LICENSE.md
+├── load_average
+├── Makefile
+├── mediaplayer
+├── memory
+├── memory2
+├── miccontrol
+├── monitor_manager
+├── nm-vpn
+├── openvpn
+├── openvpn-systemd
+├── optimus-manager
+├── README.adoc
+├── rofi-calendar
+├── shutdown_menu
+├── ssid
+├── sway-focusedwindow
+├── systemd_unit
+├── tahoe-lafs
+├── temperature
+├── time
+├── timer_and_stopwatch
+├── usb
+├── user
+├── volume
+├── volume-pulseaudio
+├── wifi
+├── wlan-dbm
+├── xkb_layout
+└── ytdl-mpv
 
-i3status:
-config
+/home/ziya/.config/i3status
+└── config
