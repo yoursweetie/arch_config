@@ -1,0 +1,20 @@
+PATH: ~/.config/i3 i3blocks i3status
+In i3blocks, config is important :)
+
+i3:
+config  net-speed.sh  setbg.sh  srlock.sh
+
+i3blocks:
+afs           batterybar         disk              iface              mediaplayer      rofi-calendar        user
+apt-upgrades  battery-poly       disk-io           ISSUE_TEMPLATE.md  memory           shutdown_menu        volume
+arch-update   calendar           docker            kbdd_layout        memory2          ssid                 volume-pulseaudio
+aur-update    config             dunst             keyindicator       miccontrol       sway-focusedwindow   wifi
+backlight     config.example     email             key_layout         monitor_manager  systemd_unit         wlan-dbm
+bandwidth     CONTRIBUTING.md    essid             key_light          nm-vpn           tahoe-lafs           xkb_layout
+bandwidth2    cpu_usage          eyedropper        kubernetes         openvpn          temperature          ytdl-mpv
+bandwidth3    cpu_usage2         go                LICENSE.md         openvpn-systemd  time
+battery       cpu_util_detailed  gpu-load          load_average       optimus-manager  timer_and_stopwatch
+battery2      dimmer             i3-focusedwindow  Makefile           README.adoc      usb
+
+i3status:
+config
