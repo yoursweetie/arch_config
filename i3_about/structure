@@ -1,12 +1,12 @@
 In i3blocks, config is most important :)
 
-/home/ziya/.config/i3
+~/.config/i3
 ├── config
 ├── net-speed.sh
 ├── setbg.sh
 └── srlock.sh
 
-/home/ziya/.config/i3blocks
+~/.config/i3blocks
 ├── afs
 ├── apt-upgrades
 ├── arch-update
@@ -75,5 +75,5 @@ In i3blocks, config is most important :)
 ├── xkb_layout
 └── ytdl-mpv
 
-/home/ziya/.config/i3status
+~/.config/i3status
 └── config
